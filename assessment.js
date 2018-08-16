@@ -59,7 +59,7 @@ var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
 function evensOnly() {
 var evensArray = [];
 for(var i =0;i<myNumbers.length;i++){
-if(([i]%2)===0){
+if(myNumbers[i]%2===0){
 evensArray.push(myNumbers[i])
   }
 }
